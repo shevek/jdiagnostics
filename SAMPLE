@@ -1,0 +1,615 @@
+ant
+    ant/appClassLoader/class.classLoader: sun.misc.Launcher$AppClassLoader@52934c3b
+    ant/appClassLoader/classLoader: sun.misc.Launcher$AppClassLoader@52934c3b
+    ant/appClassLoader/className: org.apache.tools.ant.Main
+    ant/appClassLoader/location: file:/home/shevek/.gradle/caches/modules-2/files-2.1/org.apache.ant/ant/1.7.0/9746af1a485e50cf18dcb232489032a847067066/ant-1.7.0.jar
+    ant/appClassLoader/resources: [jar:file:/home/shevek/.gradle/caches/modules-2/files-2.1/org.apache.ant/ant/1.7.0/9746af1a485e50cf18dcb232489032a847067066/ant-1.7.0.jar!/org/apache/tools/ant/Main.class]
+    ant/method: public static synchronized java.lang.String org.apache.tools.ant.Main.getAntVersion() throws org.apache.tools.ant.BuildException
+    ant/value: Apache Ant version 1.7.0 compiled on December 13 2006
+classpath
+    java.class.path
+        0: /home/shevek/java/jdiagnostics/build/instrumented
+            path: /home/shevek/java/jdiagnostics/build/instrumented
+            size: 4096
+            stat: exists=true, isFile=false, isDirectory=true, canRead=true, canWrite=true
+        1: /home/shevek/.gradle/caches/modules-2/files-2.1/net.sourceforge.cobertura/cobertura/1.9.4.1/c72a431cb65bdce793bb147915c2e311941fcb11/cobertura-1.9.4.1.jar
+            md5sum: 312cc39a5dbedccc17c3a385573244e
+            path: /home/shevek/.gradle/caches/modules-2/files-2.1/net.sourceforge.cobertura/cobertura/1.9.4.1/c72a431cb65bdce793bb147915c2e311941fcb11/cobertura-1.9.4.1.jar
+            size: 453355
+            stat: exists=true, isFile=true, isDirectory=false, canRead=true, canWrite=true
+        2: /home/shevek/.gradle/caches/modules-2/files-2.1/oro/oro/2.0.8/5592374f834645c4ae250f4c9fbb314c9369d698/oro-2.0.8.jar
+            md5sum: 42e940d5d2d822f4dc4c65053e630ab
+            path: /home/shevek/.gradle/caches/modules-2/files-2.1/oro/oro/2.0.8/5592374f834645c4ae250f4c9fbb314c9369d698/oro-2.0.8.jar
+            size: 65261
+            stat: exists=true, isFile=true, isDirectory=false, canRead=true, canWrite=true
+        3: /home/shevek/.gradle/caches/modules-2/files-2.1/asm/asm/3.0/d1616c03f056291a2314510dea75739b15b4d415/asm-3.0.jar
+            md5sum: e1f92f5aeae04b8e1ebdc5d46c5225f0
+            path: /home/shevek/.gradle/caches/modules-2/files-2.1/asm/asm/3.0/d1616c03f056291a2314510dea75739b15b4d415/asm-3.0.jar
+            size: 42710
+            stat: exists=true, isFile=true, isDirectory=false, canRead=true, canWrite=true
+        4: /home/shevek/.gradle/caches/modules-2/files-2.1/asm/asm-tree/3.0/6fff655717d1e1871decfe9f8e46a531e8df3a31/asm-tree-3.0.jar
+            md5sum: f1e52edb3419a56f42949aecd27720cd
+            path: /home/shevek/.gradle/caches/modules-2/files-2.1/asm/asm-tree/3.0/6fff655717d1e1871decfe9f8e46a531e8df3a31/asm-tree-3.0.jar
+            size: 21512
+            stat: exists=true, isFile=true, isDirectory=false, canRead=true, canWrite=true
+        5: /home/shevek/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.9/55856d711ab8b88f8c7b04fd85ff1643ffbfde7c/log4j-1.2.9.jar
+            md5sum: 6a44d84b72897f28189f4792e215b93
+            path: /home/shevek/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.9/55856d711ab8b88f8c7b04fd85ff1643ffbfde7c/log4j-1.2.9.jar
+            size: 352291
+            stat: exists=true, isFile=true, isDirectory=false, canRead=true, canWrite=true
+        6: /home/shevek/.gradle/caches/modules-2/files-2.1/org.apache.ant/ant/1.7.0/9746af1a485e50cf18dcb232489032a847067066/ant-1.7.0.jar
+            md5sum: 133e8979e9c11450f557ca89177fea
+            path: /home/shevek/.gradle/caches/modules-2/files-2.1/org.apache.ant/ant/1.7.0/9746af1a485e50cf18dcb232489032a847067066/ant-1.7.0.jar
+            size: 1289806
+            stat: exists=true, isFile=true, isDirectory=false, canRead=true, canWrite=true
+        7: /home/shevek/.gradle/caches/modules-2/files-2.1/org.apache.ant/ant-launcher/1.7.0/e7e30789211e074aa70ef3eaea59bd5b22a7fa7a/ant-launcher-1.7.0.jar
+            md5sum: e0c8b3f939a5d784bbdb6a21f2abd1d
+            path: /home/shevek/.gradle/caches/modules-2/files-2.1/org.apache.ant/ant-launcher/1.7.0/e7e30789211e074aa70ef3eaea59bd5b22a7fa7a/ant-launcher-1.7.0.jar
+            size: 11734
+            stat: exists=true, isFile=true, isDirectory=false, canRead=true, canWrite=true
+        8: /home/shevek/java/jdiagnostics/build/classes/test
+            path: /home/shevek/java/jdiagnostics/build/classes/test
+            size: 4096
+            stat: exists=true, isFile=false, isDirectory=true, canRead=true, canWrite=true
+        9: /home/shevek/java/jdiagnostics/build/resources/test
+            path: /home/shevek/java/jdiagnostics/build/resources/test
+            size: 0
+            stat: exists=false, isFile=false, isDirectory=false, canRead=false, canWrite=false
+        10: /home/shevek/java/jdiagnostics/build/classes/main
+            path: /home/shevek/java/jdiagnostics/build/classes/main
+            size: 4096
+            stat: exists=true, isFile=false, isDirectory=true, canRead=true, canWrite=true
+        11: /home/shevek/java/jdiagnostics/build/resources/main
+            path: /home/shevek/java/jdiagnostics/build/resources/main
+            size: 0
+            stat: exists=false, isFile=false, isDirectory=false, canRead=false, canWrite=false
+        12: /home/shevek/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.1/5043bfebc3db072ed80fbd362e7caf00e885d8ae/commons-logging-1.1.1.jar
+            md5sum: ed448347fc1434aa14c8189bf37de
+            path: /home/shevek/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.1/5043bfebc3db072ed80fbd362e7caf00e885d8ae/commons-logging-1.1.1.jar
+            size: 60686
+            stat: exists=true, isFile=true, isDirectory=false, canRead=true, canWrite=true
+        13: /home/shevek/.gradle/caches/modules-2/files-2.1/junit/junit/4.8.1/f2975548f836416306ef1dee748d956f04733915/junit-4.8.1.jar
+            md5sum: fb44723f35c2f1af5c51eb729b502fd
+            path: /home/shevek/.gradle/caches/modules-2/files-2.1/junit/junit/4.8.1/f2975548f836416306ef1dee748d956f04733915/junit-4.8.1.jar
+            size: 237047
+            stat: exists=true, isFile=true, isDirectory=false, canRead=true, canWrite=true
+    java.ext.dirs
+        0: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/extpath
+            0:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/localedata.jar
+                canonicalPath: /usr/lib/jvm/java-7-openjdk-common/jre/lib/ext/localedata.jar
+                md5sum: c3444dfc78b1db7fbf2c8e4a4132797
+                path: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/localedata.jar
+                size: 557969
+                stat: exists=true, isFile=true, isDirectory=false, canRead=true, canWrite=false
+            1:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/zipfs.jar
+                canonicalPath: /usr/lib/jvm/java-7-openjdk-common/jre/lib/ext/zipfs.jar
+                md5sum: 9591ba717c211eb82977d27b3996150
+                path: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/zipfs.jar
+                size: 78075
+                stat: exists=true, isFile=true, isDirectory=false, canRead=true, canWrite=false
+            2:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/meta-index
+                md5sum: f349033e9a07b7fa6a7c92796e14df
+                path: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/meta-index
+                size: 427
+                stat: exists=true, isFile=true, isDirectory=false, canRead=true, canWrite=false
+            3:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar
+                canonicalPath: /usr/share/java/java-atk-wrapper.jar
+                md5sum: 2864ad58bc12974681ca4731b9adf878
+                path: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar
+                size: 31752
+                stat: exists=true, isFile=true, isDirectory=false, canRead=true, canWrite=false
+            4:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/libatk-wrapper.so
+                canonicalPath: /usr/lib/x86_64-linux-gnu/jni/libatk-wrapper.so.0.0.18
+                md5sum: 9d78fdc60ffb46ce682bd276e75e6
+                path: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/libatk-wrapper.so
+                size: 84896
+                stat: exists=true, isFile=true, isDirectory=false, canRead=true, canWrite=false
+            5:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunjce_provider.jar
+                canonicalPath: /usr/lib/jvm/java-7-openjdk-common/jre/lib/ext/sunjce_provider.jar
+                md5sum: 85cab0cbbad616867ea1e5d39538d73f
+                path: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunjce_provider.jar
+                size: 216860
+                stat: exists=true, isFile=true, isDirectory=false, canRead=true, canWrite=false
+            6:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/dnsns.jar
+                canonicalPath: /usr/lib/jvm/java-7-openjdk-common/jre/lib/ext/dnsns.jar
+                md5sum: 4df887b63f8d4de0f0068766de4444f
+                path: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/dnsns.jar
+                size: 10074
+                stat: exists=true, isFile=true, isDirectory=false, canRead=true, canWrite=false
+            7:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunpkcs11.jar
+                canonicalPath: /usr/lib/jvm/java-7-openjdk-common/jre/lib/ext/sunpkcs11.jar
+                md5sum: 998a1392e68a80b3985fad2d29986b15
+                path: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunpkcs11.jar
+                size: 257087
+                stat: exists=true, isFile=true, isDirectory=false, canRead=true, canWrite=false
+            8:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/pulse-java.jar
+                canonicalPath: /usr/lib/jvm/java-7-openjdk-common/jre/lib/ext/pulse-java.jar
+                md5sum: 17a8cf6f756d567075c5f47253ff019
+                path: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/pulse-java.jar
+                size: 69769
+                stat: exists=true, isFile=true, isDirectory=false, canRead=true, canWrite=false
+        1: /usr/java/packages/lib/exterror: Not a directory: /usr/java/packages/lib/ext
+    sun.boot.class.path
+        0: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar
+            canonicalPath: /usr/lib/jvm/java-7-openjdk-common/jre/lib/resources.jar
+            md5sum: 1ccaca3d6d4808b81b24c6a96e3693b
+            path: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar
+            size: 806832
+            stat: exists=true, isFile=true, isDirectory=false, canRead=true, canWrite=false
+        1: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
+            md5sum: b31ddfd33eb9bcf3ce4b7a1381bfe89
+            path: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
+            size: 32083857
+            stat: exists=true, isFile=true, isDirectory=false, canRead=true, canWrite=false
+        2: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar
+            path: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar
+            size: 0
+            stat: exists=false, isFile=false, isDirectory=false, canRead=false, canWrite=false
+        3: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar
+            md5sum: e3595ca5e4585bf2d4714a9cc451b31
+            path: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar
+            size: 328277
+            stat: exists=true, isFile=true, isDirectory=false, canRead=true, canWrite=false
+        4: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar
+            md5sum: 39662c844a0b3bb216a7439641b5cb1
+            path: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar
+            size: 91988
+            stat: exists=true, isFile=true, isDirectory=false, canRead=true, canWrite=false
+        5: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar
+            md5sum: 369432ea55fc886ab4facd64e4b4be4
+            path: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar
+            size: 2119489
+            stat: exists=true, isFile=true, isDirectory=false, canRead=true, canWrite=false
+        6: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/netx.jar
+            path: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/netx.jar
+            size: 0
+            stat: exists=false, isFile=false, isDirectory=false, canRead=false, canWrite=false
+        7: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/plugin.jar
+            path: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/plugin.jar
+            size: 0
+            stat: exists=false, isFile=false, isDirectory=false, canRead=false, canWrite=false
+        8: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar
+            md5sum: 5fc24b1b873d28d7f2bda81565e8981
+            path: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar
+            size: 1127950
+            stat: exists=true, isFile=true, isDirectory=false, canRead=true, canWrite=false
+        9: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar
+            path: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar
+            size: 0
+            stat: exists=false, isFile=false, isDirectory=false, canRead=false, canWrite=false
+        10: /usr/lib/jvm/java-7-openjdk-amd64/jre/classes
+            path: /usr/lib/jvm/java-7-openjdk-amd64/jre/classes
+            size: 0
+            stat: exists=false, isFile=false, isDirectory=false, canRead=false, canWrite=false
+dom
+    v2/class/appClassLoader/class.classLoader: null
+    v2/class/appClassLoader/classLoader: sun.misc.Launcher$AppClassLoader@52934c3b
+    v2/class/appClassLoader/className: org.w3c.dom.Document
+    v2/class/appClassLoader/location: (no CodeSource)
+    v2/class/appClassLoader/resources: [jar:file:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar!/org/w3c/dom/Document.class]
+    v2/method/createElementNS/method: public abstract org.w3c.dom.Element org.w3c.dom.Document.createElementNS(java.lang.String,java.lang.String) throws org.w3c.dom.DOMException
+    version: &gt;=2.0
+environment
+    locale: en_US
+    proxy/http
+        appClassLoader/class.classLoader: null
+        appClassLoader/classLoader: sun.misc.Launcher$AppClassLoader@52934c3b
+        appClassLoader/className: java.net.ProxySelector
+        appClassLoader/location: (no CodeSource)
+        appClassLoader/resources: [jar:file:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar!/java/net/ProxySelector.class]
+        factory/method: public static java.net.ProxySelector java.net.ProxySelector.getDefault()
+        factory/value: sun.net.spi.DefaultProxySelector@32fe621e
+        http/method: public abstract java.util.List java.net.ProxySelector.select(java.net.URI)
+        http/value: [DIRECT]
+    proxy/https
+        appClassLoader/class.classLoader: null
+        appClassLoader/classLoader: sun.misc.Launcher$AppClassLoader@52934c3b
+        appClassLoader/className: java.net.ProxySelector
+        appClassLoader/location: (no CodeSource)
+        appClassLoader/resources: [jar:file:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar!/java/net/ProxySelector.class]
+        factory/method: public static java.net.ProxySelector java.net.ProxySelector.getDefault()
+        factory/value: sun.net.spi.DefaultProxySelector@32fe621e
+        https/method: public abstract java.util.List java.net.ProxySelector.select(java.net.URI)
+        https/value: [DIRECT]
+    timzeone: sun.util.calendar.ZoneInfo[id=&quot;America/Los_Angeles&quot;,offset=-28800000,dstSavings=3600000,useDaylight=true,transitions=185,lastRule=java.util.SimpleTimeZone[id=America/Los_Angeles,offset=-28800000,dstSavings=3600000,useDaylight=true,startYear=0,startMode=3,startMonth=2,startDay=8,startDayOfWeek=1,startTime=7200000,startTimeMode=0,endMode=3,endMonth=10,endDay=1,endDayOfWeek=1,endTime=7200000,endTimeMode=0]]
+jaxp
+    factory/appClassLoader/class.classLoader: null
+    factory/appClassLoader/classLoader: sun.misc.Launcher$AppClassLoader@52934c3b
+    factory/appClassLoader/className: javax.xml.parsers.DocumentBuilderFactory
+    factory/appClassLoader/location: (no CodeSource)
+    factory/appClassLoader/resources: [jar:file:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar!/javax/xml/parsers/DocumentBuilderFactory.class]
+    factory/instance/method: public javax.xml.parsers.DocumentBuilder com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl.newDocumentBuilder() throws javax.xml.parsers.ParserConfigurationException
+    factory/instance/value: com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl@78b8f5f5
+    factory/method: public static javax.xml.parsers.DocumentBuilderFactory javax.xml.parsers.DocumentBuilderFactory.newInstance()
+    factory/type/class.classLoader: null
+    factory/type/className: com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl
+    factory/type/location: (no CodeSource)
+    factory/type/resources: [jar:file:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar!/com/sun/org/apache/xerces/internal/jaxp/DocumentBuilderImpl.class]
+    factory/value: com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl@371be5be
+    version/appClassLoader/class.classLoader: null
+    version/appClassLoader/classLoader: sun.misc.Launcher$AppClassLoader@52934c3b
+    version/appClassLoader/className: javax.xml.parsers.DocumentBuilder
+    version/appClassLoader/location: (no CodeSource)
+    version/appClassLoader/resources: [jar:file:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar!/javax/xml/parsers/DocumentBuilder.class]
+    version/method: public abstract org.w3c.dom.DOMImplementation javax.xml.parsers.DocumentBuilder.getDOMImplementation()
+    version/version: &gt;=1.1
+processEnvironment
+    HOME: /home/shevek
+    LANG: en_US.UTF-8
+    LESSCLOSE: /usr/bin/lesspipe %s %s
+    LESSOPEN: | /usr/bin/lesspipe %s
+    LOGNAME: shevek
+    LS_COLORS: rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:
+    OLDPWD: /home/shevek/java/jdiagnostics
+    PATH: /home/shevek/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    PWD: /home/shevek/java/jdiagnostics
+    SHELL: /bin/bash
+    SHLVL: 1
+    USER: shevek
+sax
+    factory/appClassLoader/class.classLoader: null
+    factory/appClassLoader/classLoader: sun.misc.Launcher$AppClassLoader@52934c3b
+    factory/appClassLoader/className: javax.xml.parsers.SAXParserFactory
+    factory/appClassLoader/location: (no CodeSource)
+    factory/appClassLoader/resources: [jar:file:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar!/javax/xml/parsers/SAXParserFactory.class]
+    factory/instance/method: public javax.xml.parsers.SAXParser com.sun.org.apache.xerces.internal.jaxp.SAXParserFactoryImpl.newSAXParser() throws javax.xml.parsers.ParserConfigurationException
+    factory/instance/value: com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl@8883936
+    factory/method: public static javax.xml.parsers.SAXParserFactory javax.xml.parsers.SAXParserFactory.newInstance()
+    factory/type/class.classLoader: null
+    factory/type/className: com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl
+    factory/type/location: (no CodeSource)
+    factory/type/resources: [jar:file:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar!/com/sun/org/apache/xerces/internal/jaxp/SAXParserImpl.class]
+    factory/value: com.sun.org.apache.xerces.internal.jaxp.SAXParserFactoryImpl@27640c9a
+    version/v2/class/appClassLoader/class.classLoader: null
+    version/v2/class/appClassLoader/classLoader: sun.misc.Launcher$AppClassLoader@52934c3b
+    version/v2/class/appClassLoader/className: org.xml.sax.helpers.AttributesImpl
+    version/v2/class/appClassLoader/location: (no CodeSource)
+    version/v2/class/appClassLoader/resources: [jar:file:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar!/org/xml/sax/helpers/AttributesImpl.class]
+    version/v2/method/setAttributes/method: public void org.xml.sax.helpers.AttributesImpl.setAttributes(org.xml.sax.Attributes)
+    version/v2arg/appClassLoader/class.classLoader: null
+    version/v2arg/appClassLoader/classLoader: sun.misc.Launcher$AppClassLoader@52934c3b
+    version/v2arg/appClassLoader/className: org.xml.sax.Attributes
+    version/v2arg/appClassLoader/location: (no CodeSource)
+    version/v2arg/appClassLoader/resources: [jar:file:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar!/org/xml/sax/Attributes.class]
+    version/version: &gt;=2.0
+systemProperties
+    awt.toolkit: sun.awt.X11.XToolkit
+    file.encoding: UTF-8
+    file.encoding.pkg: sun.io
+    file.separator: /
+    java.awt.graphicsenv: sun.awt.X11GraphicsEnvironment
+    java.awt.printerjob: sun.print.PSPrinterJob
+    java.class.path: /home/shevek/java/jdiagnostics/build/instrumented:/home/shevek/.gradle/caches/modules-2/files-2.1/net.sourceforge.cobertura/cobertura/1.9.4.1/c72a431cb65bdce793bb147915c2e311941fcb11/cobertura-1.9.4.1.jar:/home/shevek/.gradle/caches/modules-2/files-2.1/oro/oro/2.0.8/5592374f834645c4ae250f4c9fbb314c9369d698/oro-2.0.8.jar:/home/shevek/.gradle/caches/modules-2/files-2.1/asm/asm/3.0/d1616c03f056291a2314510dea75739b15b4d415/asm-3.0.jar:/home/shevek/.gradle/caches/modules-2/files-2.1/asm/asm-tree/3.0/6fff655717d1e1871decfe9f8e46a531e8df3a31/asm-tree-3.0.jar:/home/shevek/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.9/55856d711ab8b88f8c7b04fd85ff1643ffbfde7c/log4j-1.2.9.jar:/home/shevek/.gradle/caches/modules-2/files-2.1/org.apache.ant/ant/1.7.0/9746af1a485e50cf18dcb232489032a847067066/ant-1.7.0.jar:/home/shevek/.gradle/caches/modules-2/files-2.1/org.apache.ant/ant-launcher/1.7.0/e7e30789211e074aa70ef3eaea59bd5b22a7fa7a/ant-launcher-1.7.0.jar:/home/shevek/java/jdiagnostics/build/classes/test:/home/shevek/java/jdiagnostics/build/resources/test:/home/shevek/java/jdiagnostics/build/classes/main:/home/shevek/java/jdiagnostics/build/resources/main:/home/shevek/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.1/5043bfebc3db072ed80fbd362e7caf00e885d8ae/commons-logging-1.1.1.jar:/home/shevek/.gradle/caches/modules-2/files-2.1/junit/junit/4.8.1/f2975548f836416306ef1dee748d956f04733915/junit-4.8.1.jar
+    java.class.version: 51.0
+    java.endorsed.dirs: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/endorsed
+    java.ext.dirs: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext
+    java.home: /usr/lib/jvm/java-7-openjdk-amd64/jre
+    java.io.tmpdir: /tmp
+    java.library.path: /usr/java/packages/lib/amd64:/usr/lib/jni:/lib:/usr/lib
+    java.runtime.name: OpenJDK Runtime Environment
+    java.runtime.version: 1.7.0_25-b30
+    java.specification.name: Java Platform API Specification
+    java.specification.vendor: Oracle Corporation
+    java.specification.version: 1.7
+    java.vendor: Oracle Corporation
+    java.vendor.url: http://java.oracle.com/
+    java.vendor.url.bug: http://bugreport.sun.com/bugreport/
+    java.version: 1.7.0_25
+    java.vm.info: mixed mode
+    java.vm.name: OpenJDK 64-Bit Server VM
+    java.vm.specification.name: Java Virtual Machine Specification
+    java.vm.specification.vendor: Oracle Corporation
+    java.vm.specification.version: 1.7
+    java.vm.vendor: Oracle Corporation
+    java.vm.version: 23.7-b01
+    line.separator: 
+
+    net.sourceforge.cobertura.datafile: /home/shevek/java/jdiagnostics/build/cobertura/cobertura.ser
+    org.apache.commons.logging.Log: org.apache.commons.logging.impl.SimpleLog
+    org.apache.commons.logging.simplelog.defaultlog: debug
+    org.gradle.test.worker: 2
+    os.arch: amd64
+    os.name: Linux
+    os.version: 3.2.0-56-generic
+    path.separator: :
+    sun.arch.data.model: 64
+    sun.boot.class.path: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/netx.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/plugin.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes
+    sun.boot.library.path: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64
+    sun.cpu.endian: little
+    sun.cpu.isalist: 
+    sun.io.unicode.encoding: UnicodeLittle
+    sun.java.command: jarjar.org.gradle.process.internal.launcher.GradleWorkerMain
+    sun.java.launcher: SUN_STANDARD
+    sun.jnu.encoding: UTF-8
+    sun.management.compiler: HotSpot 64-Bit Tiered Compilers
+    sun.os.patch.level: unknown
+    user.country: US
+    user.dir: /home/shevek/java/jdiagnostics
+    user.home: /home/shevek
+    user.language: en
+    user.name: shevek
+    user.timezone: America/Los_Angeles
+throwable
+    message: null
+    frame0/element: org.anarres.jdiagnostics.DefaultQueryTest.testQuery(DefaultQueryTest.java:23)
+    frame0/class
+        appClassLoader/class.classLoader: sun.misc.Launcher$AppClassLoader@52934c3b
+        appClassLoader/classLoader: sun.misc.Launcher$AppClassLoader@52934c3b
+        appClassLoader/className: org.anarres.jdiagnostics.DefaultQueryTest
+        appClassLoader/location: file:/home/shevek/java/jdiagnostics/build/classes/test/
+        appClassLoader/resources: [file:/home/shevek/java/jdiagnostics/build/classes/test/org/anarres/jdiagnostics/DefaultQueryTest.class]
+    frame1/element: sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    frame1/class
+        appClassLoader/class.classLoader: null
+        appClassLoader/classLoader: sun.misc.Launcher$AppClassLoader@52934c3b
+        appClassLoader/className: sun.reflect.NativeMethodAccessorImpl
+        appClassLoader/location: (no CodeSource)
+        appClassLoader/resources: [jar:file:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class]
+    frame2/element: sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+    frame2/class
+        appClassLoader/class.classLoader: null
+        appClassLoader/classLoader: sun.misc.Launcher$AppClassLoader@52934c3b
+        appClassLoader/className: sun.reflect.NativeMethodAccessorImpl
+        appClassLoader/location: (no CodeSource)
+        appClassLoader/resources: [jar:file:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class]
+    frame3/element: sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    frame3/class
+        appClassLoader/class.classLoader: null
+        appClassLoader/classLoader: sun.misc.Launcher$AppClassLoader@52934c3b
+        appClassLoader/className: sun.reflect.DelegatingMethodAccessorImpl
+        appClassLoader/location: (no CodeSource)
+        appClassLoader/resources: [jar:file:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class]
+    frame4/element: java.lang.reflect.Method.invoke(Method.java:606)
+    frame4/class
+        appClassLoader/class.classLoader: null
+        appClassLoader/classLoader: sun.misc.Launcher$AppClassLoader@52934c3b
+        appClassLoader/className: java.lang.reflect.Method
+        appClassLoader/location: (no CodeSource)
+        appClassLoader/resources: [jar:file:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar!/java/lang/reflect/Method.class]
+    frame5/element: org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+    frame5/class
+        appClassLoader/class.classLoader: sun.misc.Launcher$AppClassLoader@52934c3b
+        appClassLoader/classLoader: sun.misc.Launcher$AppClassLoader@52934c3b
+        appClassLoader/className: org.junit.runners.model.FrameworkMethod$1
+        appClassLoader/location: file:/home/shevek/.gradle/caches/modules-2/files-2.1/junit/junit/4.8.1/f2975548f836416306ef1dee748d956f04733915/junit-4.8.1.jar
+        appClassLoader/resources: [jar:file:/home/shevek/.gradle/caches/modules-2/files-2.1/junit/junit/4.8.1/f2975548f836416306ef1dee748d956f04733915/junit-4.8.1.jar!/org/junit/runners/model/FrameworkMethod$1.class]
+    frame6/element: org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+    frame6/class
+        appClassLoader/class.classLoader: sun.misc.Launcher$AppClassLoader@52934c3b
+        appClassLoader/classLoader: sun.misc.Launcher$AppClassLoader@52934c3b
+        appClassLoader/className: org.junit.internal.runners.model.ReflectiveCallable
+        appClassLoader/location: file:/home/shevek/.gradle/caches/modules-2/files-2.1/junit/junit/4.8.1/f2975548f836416306ef1dee748d956f04733915/junit-4.8.1.jar
+        appClassLoader/resources: [jar:file:/home/shevek/.gradle/caches/modules-2/files-2.1/junit/junit/4.8.1/f2975548f836416306ef1dee748d956f04733915/junit-4.8.1.jar!/org/junit/internal/runners/model/ReflectiveCallable.class]
+    frame7/element: org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+    frame7/class
+        appClassLoader/class.classLoader: sun.misc.Launcher$AppClassLoader@52934c3b
+        appClassLoader/classLoader: sun.misc.Launcher$AppClassLoader@52934c3b
+        appClassLoader/className: org.junit.runners.model.FrameworkMethod
+        appClassLoader/location: file:/home/shevek/.gradle/caches/modules-2/files-2.1/junit/junit/4.8.1/f2975548f836416306ef1dee748d956f04733915/junit-4.8.1.jar
+        appClassLoader/resources: [jar:file:/home/shevek/.gradle/caches/modules-2/files-2.1/junit/junit/4.8.1/f2975548f836416306ef1dee748d956f04733915/junit-4.8.1.jar!/org/junit/runners/model/FrameworkMethod.class]
+    frame8/element: org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+    frame8/class
+        appClassLoader/class.classLoader: sun.misc.Launcher$AppClassLoader@52934c3b
+        appClassLoader/classLoader: sun.misc.Launcher$AppClassLoader@52934c3b
+        appClassLoader/className: org.junit.internal.runners.statements.InvokeMethod
+        appClassLoader/location: file:/home/shevek/.gradle/caches/modules-2/files-2.1/junit/junit/4.8.1/f2975548f836416306ef1dee748d956f04733915/junit-4.8.1.jar
+        appClassLoader/resources: [jar:file:/home/shevek/.gradle/caches/modules-2/files-2.1/junit/junit/4.8.1/f2975548f836416306ef1dee748d956f04733915/junit-4.8.1.jar!/org/junit/internal/runners/statements/InvokeMethod.class]
+    frame9/element: org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:76)
+    frame9/class
+        appClassLoader/class.classLoader: sun.misc.Launcher$AppClassLoader@52934c3b
+        appClassLoader/classLoader: sun.misc.Launcher$AppClassLoader@52934c3b
+        appClassLoader/className: org.junit.runners.BlockJUnit4ClassRunner
+        appClassLoader/location: file:/home/shevek/.gradle/caches/modules-2/files-2.1/junit/junit/4.8.1/f2975548f836416306ef1dee748d956f04733915/junit-4.8.1.jar
+        appClassLoader/resources: [jar:file:/home/shevek/.gradle/caches/modules-2/files-2.1/junit/junit/4.8.1/f2975548f836416306ef1dee748d956f04733915/junit-4.8.1.jar!/org/junit/runners/BlockJUnit4ClassRunner.class]
+    frame10/element: org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+    frame10/class
+        appClassLoader/class.classLoader: sun.misc.Launcher$AppClassLoader@52934c3b
+        appClassLoader/classLoader: sun.misc.Launcher$AppClassLoader@52934c3b
+        appClassLoader/className: org.junit.runners.BlockJUnit4ClassRunner
+        appClassLoader/location: file:/home/shevek/.gradle/caches/modules-2/files-2.1/junit/junit/4.8.1/f2975548f836416306ef1dee748d956f04733915/junit-4.8.1.jar
+        appClassLoader/resources: [jar:file:/home/shevek/.gradle/caches/modules-2/files-2.1/junit/junit/4.8.1/f2975548f836416306ef1dee748d956f04733915/junit-4.8.1.jar!/org/junit/runners/BlockJUnit4ClassRunner.class]
+    frame11/element: org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+    frame11/class
+        appClassLoader/class.classLoader: sun.misc.Launcher$AppClassLoader@52934c3b
+        appClassLoader/classLoader: sun.misc.Launcher$AppClassLoader@52934c3b
+        appClassLoader/className: org.junit.runners.ParentRunner$3
+        appClassLoader/location: file:/home/shevek/.gradle/caches/modules-2/files-2.1/junit/junit/4.8.1/f2975548f836416306ef1dee748d956f04733915/junit-4.8.1.jar
+        appClassLoader/resources: [jar:file:/home/shevek/.gradle/caches/modules-2/files-2.1/junit/junit/4.8.1/f2975548f836416306ef1dee748d956f04733915/junit-4.8.1.jar!/org/junit/runners/ParentRunner$3.class]
+    frame12/element: org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+    frame12/class
+        appClassLoader/class.classLoader: sun.misc.Launcher$AppClassLoader@52934c3b
+        appClassLoader/classLoader: sun.misc.Launcher$AppClassLoader@52934c3b
+        appClassLoader/className: org.junit.runners.ParentRunner$1
+        appClassLoader/location: file:/home/shevek/.gradle/caches/modules-2/files-2.1/junit/junit/4.8.1/f2975548f836416306ef1dee748d956f04733915/junit-4.8.1.jar
+        appClassLoader/resources: [jar:file:/home/shevek/.gradle/caches/modules-2/files-2.1/junit/junit/4.8.1/f2975548f836416306ef1dee748d956f04733915/junit-4.8.1.jar!/org/junit/runners/ParentRunner$1.class]
+    frame13/element: org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+    frame13/class
+        appClassLoader/class.classLoader: sun.misc.Launcher$AppClassLoader@52934c3b
+        appClassLoader/classLoader: sun.misc.Launcher$AppClassLoader@52934c3b
+        appClassLoader/className: org.junit.runners.ParentRunner
+        appClassLoader/location: file:/home/shevek/.gradle/caches/modules-2/files-2.1/junit/junit/4.8.1/f2975548f836416306ef1dee748d956f04733915/junit-4.8.1.jar
+        appClassLoader/resources: [jar:file:/home/shevek/.gradle/caches/modules-2/files-2.1/junit/junit/4.8.1/f2975548f836416306ef1dee748d956f04733915/junit-4.8.1.jar!/org/junit/runners/ParentRunner.class]
+    frame14/element: org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+    frame14/class
+        appClassLoader/class.classLoader: sun.misc.Launcher$AppClassLoader@52934c3b
+        appClassLoader/classLoader: sun.misc.Launcher$AppClassLoader@52934c3b
+        appClassLoader/className: org.junit.runners.ParentRunner
+        appClassLoader/location: file:/home/shevek/.gradle/caches/modules-2/files-2.1/junit/junit/4.8.1/f2975548f836416306ef1dee748d956f04733915/junit-4.8.1.jar
+        appClassLoader/resources: [jar:file:/home/shevek/.gradle/caches/modules-2/files-2.1/junit/junit/4.8.1/f2975548f836416306ef1dee748d956f04733915/junit-4.8.1.jar!/org/junit/runners/ParentRunner.class]
+    frame15/element: org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+    frame15/class
+        appClassLoader/class.classLoader: sun.misc.Launcher$AppClassLoader@52934c3b
+        appClassLoader/classLoader: sun.misc.Launcher$AppClassLoader@52934c3b
+        appClassLoader/className: org.junit.runners.ParentRunner$2
+        appClassLoader/location: file:/home/shevek/.gradle/caches/modules-2/files-2.1/junit/junit/4.8.1/f2975548f836416306ef1dee748d956f04733915/junit-4.8.1.jar
+        appClassLoader/resources: [jar:file:/home/shevek/.gradle/caches/modules-2/files-2.1/junit/junit/4.8.1/f2975548f836416306ef1dee748d956f04733915/junit-4.8.1.jar!/org/junit/runners/ParentRunner$2.class]
+    frame16/element: org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+    frame16/class
+        appClassLoader/class.classLoader: sun.misc.Launcher$AppClassLoader@52934c3b
+        appClassLoader/classLoader: sun.misc.Launcher$AppClassLoader@52934c3b
+        appClassLoader/className: org.junit.runners.ParentRunner
+        appClassLoader/location: file:/home/shevek/.gradle/caches/modules-2/files-2.1/junit/junit/4.8.1/f2975548f836416306ef1dee748d956f04733915/junit-4.8.1.jar
+        appClassLoader/resources: [jar:file:/home/shevek/.gradle/caches/modules-2/files-2.1/junit/junit/4.8.1/f2975548f836416306ef1dee748d956f04733915/junit-4.8.1.jar!/org/junit/runners/ParentRunner.class]
+    frame17/element: org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:86)
+    frame17/class
+        appClassLoader/className: org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter (not found)
+    frame18/element: org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:49)
+    frame18/class
+        appClassLoader/className: org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter (not found)
+    frame19/element: org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:69)
+    frame19/class
+        appClassLoader/className: org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor (not found)
+    frame20/element: org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:50)
+    frame20/class
+        appClassLoader/className: org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor (not found)
+    frame21/element: sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    frame21/class
+        appClassLoader/class.classLoader: null
+        appClassLoader/classLoader: sun.misc.Launcher$AppClassLoader@52934c3b
+        appClassLoader/className: sun.reflect.NativeMethodAccessorImpl
+        appClassLoader/location: (no CodeSource)
+        appClassLoader/resources: [jar:file:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class]
+    frame22/element: sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+    frame22/class
+        appClassLoader/class.classLoader: null
+        appClassLoader/classLoader: sun.misc.Launcher$AppClassLoader@52934c3b
+        appClassLoader/className: sun.reflect.NativeMethodAccessorImpl
+        appClassLoader/location: (no CodeSource)
+        appClassLoader/resources: [jar:file:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class]
+    frame23/element: sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    frame23/class
+        appClassLoader/class.classLoader: null
+        appClassLoader/classLoader: sun.misc.Launcher$AppClassLoader@52934c3b
+        appClassLoader/className: sun.reflect.DelegatingMethodAccessorImpl
+        appClassLoader/location: (no CodeSource)
+        appClassLoader/resources: [jar:file:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class]
+    frame24/element: java.lang.reflect.Method.invoke(Method.java:606)
+    frame24/class
+        appClassLoader/class.classLoader: null
+        appClassLoader/classLoader: sun.misc.Launcher$AppClassLoader@52934c3b
+        appClassLoader/className: java.lang.reflect.Method
+        appClassLoader/location: (no CodeSource)
+        appClassLoader/resources: [jar:file:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar!/java/lang/reflect/Method.class]
+    frame25/element: org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+    frame25/class
+        appClassLoader/className: org.gradle.messaging.dispatch.ReflectionDispatch (not found)
+    frame26/element: org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+    frame26/class
+        appClassLoader/className: org.gradle.messaging.dispatch.ReflectionDispatch (not found)
+    frame27/element: org.gradle.messaging.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+    frame27/class
+        appClassLoader/className: org.gradle.messaging.dispatch.ContextClassLoaderDispatch (not found)
+    frame28/element: org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+    frame28/class
+        appClassLoader/className: org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler (not found)
+    frame29/element: com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+    frame29/class
+        appClassLoader/className: com.sun.proxy.$Proxy2 (not found)
+    frame30/element: org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:103)
+    frame30/class
+        appClassLoader/className: org.gradle.api.internal.tasks.testing.worker.TestWorker (not found)
+    frame31/element: sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    frame31/class
+        appClassLoader/class.classLoader: null
+        appClassLoader/classLoader: sun.misc.Launcher$AppClassLoader@52934c3b
+        appClassLoader/className: sun.reflect.NativeMethodAccessorImpl
+        appClassLoader/location: (no CodeSource)
+        appClassLoader/resources: [jar:file:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class]
+    frame32/element: sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+    frame32/class
+        appClassLoader/class.classLoader: null
+        appClassLoader/classLoader: sun.misc.Launcher$AppClassLoader@52934c3b
+        appClassLoader/className: sun.reflect.NativeMethodAccessorImpl
+        appClassLoader/location: (no CodeSource)
+        appClassLoader/resources: [jar:file:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class]
+    frame33/element: sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    frame33/class
+        appClassLoader/class.classLoader: null
+        appClassLoader/classLoader: sun.misc.Launcher$AppClassLoader@52934c3b
+        appClassLoader/className: sun.reflect.DelegatingMethodAccessorImpl
+        appClassLoader/location: (no CodeSource)
+        appClassLoader/resources: [jar:file:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class]
+    frame34/element: java.lang.reflect.Method.invoke(Method.java:606)
+    frame34/class
+        appClassLoader/class.classLoader: null
+        appClassLoader/classLoader: sun.misc.Launcher$AppClassLoader@52934c3b
+        appClassLoader/className: java.lang.reflect.Method
+        appClassLoader/location: (no CodeSource)
+        appClassLoader/resources: [jar:file:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar!/java/lang/reflect/Method.class]
+    frame35/element: org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+    frame35/class
+        appClassLoader/className: org.gradle.messaging.dispatch.ReflectionDispatch (not found)
+    frame36/element: org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+    frame36/class
+        appClassLoader/className: org.gradle.messaging.dispatch.ReflectionDispatch (not found)
+    frame37/element: org.gradle.messaging.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:355)
+    frame37/class
+        appClassLoader/className: org.gradle.messaging.remote.internal.hub.MessageHub$Handler (not found)
+    frame38/element: org.gradle.internal.concurrent.DefaultExecutorFactory$StoppableExecutorImpl$1.run(DefaultExecutorFactory.java:64)
+    frame38/class
+        appClassLoader/className: org.gradle.internal.concurrent.DefaultExecutorFactory$StoppableExecutorImpl$1 (not found)
+    frame39/element: java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+    frame39/class
+        appClassLoader/class.classLoader: null
+        appClassLoader/classLoader: sun.misc.Launcher$AppClassLoader@52934c3b
+        appClassLoader/className: java.util.concurrent.ThreadPoolExecutor
+        appClassLoader/location: (no CodeSource)
+        appClassLoader/resources: [jar:file:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar!/java/util/concurrent/ThreadPoolExecutor.class]
+    frame40/element: java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+    frame40/class
+        appClassLoader/class.classLoader: null
+        appClassLoader/classLoader: sun.misc.Launcher$AppClassLoader@52934c3b
+        appClassLoader/className: java.util.concurrent.ThreadPoolExecutor$Worker
+        appClassLoader/location: (no CodeSource)
+        appClassLoader/resources: [jar:file:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar!/java/util/concurrent/ThreadPoolExecutor$Worker.class]
+    frame41/element: java.lang.Thread.run(Thread.java:724)
+    frame41/class
+        appClassLoader/class.classLoader: null
+        appClassLoader/classLoader: sun.misc.Launcher$AppClassLoader@52934c3b
+        appClassLoader/className: java.lang.Thread
+        appClassLoader/location: (no CodeSource)
+        appClassLoader/resources: [jar:file:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar!/java/lang/Thread.class]
+tmpdir
+    drift: -193
+    name: /tmp
+    path: /tmp
+    size: 135168
+    stat: exists=true, isFile=false, isDirectory=true, canRead=true, canWrite=true
+xalan
+    com.sun.org.apache.xalan.internal.xalan1/appClassLoader/className: com.sun.org.apache.xalan.internal.xslt.XSLProcessorVersion (not found)
+    com.sun.org.apache.xalan.internal.xalan2.2/appClassLoader/class.classLoader: null
+    com.sun.org.apache.xalan.internal.xalan2.2/appClassLoader/classLoader: sun.misc.Launcher$AppClassLoader@52934c3b
+    com.sun.org.apache.xalan.internal.xalan2.2/appClassLoader/className: com.sun.org.apache.xalan.internal.Version
+    com.sun.org.apache.xalan.internal.xalan2.2/appClassLoader/location: (no CodeSource)
+    com.sun.org.apache.xalan.internal.xalan2.2/appClassLoader/resources: [jar:file:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar!/com/sun/org/apache/xalan/internal/Version.class]
+    com.sun.org.apache.xalan.internal.xalan2.2/method: public static java.lang.String com.sun.org.apache.xalan.internal.Version.getVersion()
+    com.sun.org.apache.xalan.internal.xalan2.2/value: Xalan Java 2.7.0
+    com.sun.org.apache.xalan.internal.xalan2/appClassLoader/className: com.sun.org.apache.xalan.internal.processor.XSLProcessorVersion (not found)
+    org.apache.xalan.xalan1/appClassLoader/className: org.apache.xalan.xslt.XSLProcessorVersion (not found)
+    org.apache.xalan.xalan2.2/appClassLoader/className: org.apache.xalan.Version (not found)
+    org.apache.xalan.xalan2/appClassLoader/className: org.apache.xalan.processor.XSLProcessorVersion (not found)
+xerces
+    com.sun.org.apache.xerces.internal.xerces1/appClassLoader/className: com.sun.org.apache.xerces.internal.framework.Version (not found)
+    com.sun.org.apache.xerces.internal.xerces2/appClassLoader/class.classLoader: null
+    com.sun.org.apache.xerces.internal.xerces2/appClassLoader/classLoader: sun.misc.Launcher$AppClassLoader@52934c3b
+    com.sun.org.apache.xerces.internal.xerces2/appClassLoader/className: com.sun.org.apache.xerces.internal.impl.Version
+    com.sun.org.apache.xerces.internal.xerces2/appClassLoader/location: (no CodeSource)
+    com.sun.org.apache.xerces.internal.xerces2/appClassLoader/resources: [jar:file:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar!/com/sun/org/apache/xerces/internal/impl/Version.class]
+    com.sun.org.apache.xerces.internal.xerces2/fVersion/field: public static java.lang.String com.sun.org.apache.xerces.internal.impl.Version.fVersion
+    com.sun.org.apache.xerces.internal.xerces2/fVersion/value: Xerces-J 2.7.1
+    org.apache.xerces.xerces1/appClassLoader/className: org.apache.xerces.framework.Version (not found)
+    org.apache.xerces.xerces2/appClassLoader/className: org.apache.xerces.impl.Version (not found)
+xslt
+    factory/appClassLoader/class.classLoader: null
+    factory/appClassLoader/classLoader: sun.misc.Launcher$AppClassLoader@52934c3b
+    factory/appClassLoader/className: javax.xml.transform.TransformerFactory
+    factory/appClassLoader/location: (no CodeSource)
+    factory/appClassLoader/resources: [jar:file:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar!/javax/xml/transform/TransformerFactory.class]
+    factory/instance/method: public javax.xml.transform.Transformer com.sun.org.apache.xalan.internal.xsltc.trax.TransformerFactoryImpl.newTransformer() throws javax.xml.transform.TransformerConfigurationException
+    factory/instance/value: com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl@197766aa
+    factory/method: public static javax.xml.transform.TransformerFactory javax.xml.transform.TransformerFactory.newInstance() throws javax.xml.transform.TransformerFactoryConfigurationError
+    factory/type/class.classLoader: null
+    factory/type/className: com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl
+    factory/type/location: (no CodeSource)
+    factory/type/resources: [jar:file:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar!/com/sun/org/apache/xalan/internal/xsltc/trax/TransformerImpl.class]
+    factory/value: com.sun.org.apache.xalan.internal.xsltc.trax.TransformerFactoryImpl@6df52ff5
