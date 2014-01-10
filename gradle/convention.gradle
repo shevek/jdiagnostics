@@ -83,7 +83,6 @@ status = project.hasProperty('preferredStatus')?project.preferredStatus:(version
 	}
 
 
-/*
 apply plugin: 'github-pages' // Used to create publishGhPages task
 
 def docTasks = [:]
@@ -104,7 +103,6 @@ githubPages {
 		}
 	}
 }
-*/
 
 // Generate wrapper, which is distributed as part of source to alleviate the need of installing gradle
 wrapper {
