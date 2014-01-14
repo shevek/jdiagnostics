@@ -55,15 +55,15 @@ public class ClassQuery extends AbstractQuery {
         {
             ProtectionDomain pd = type.getProtectionDomain();
             if (pd == null) {
-                result.put(prefix + "location", "(no ProtectionDomain)");
+                result.put(prefix + "codesource", "(no ProtectionDomain)");
                 break LOCATION;
             }
             CodeSource cs = pd.getCodeSource();
             if (cs == null) {
-                result.put(prefix + "location", "(no CodeSource)");
+                result.put(prefix + "codesource", "(no CodeSource)");
                 break LOCATION;
             }
-            result.put(prefix + "location", cs.getLocation());
+            result.put(prefix + "codesource", cs.getLocation());
         }
 
         String resourceName = toResource(type);

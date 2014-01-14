@@ -55,10 +55,10 @@ public class FileQuery extends AbstractQuery {
         } catch (IOException e) {
             thrown(result, prefix + "canonicalPath/", e);
         }
-        result.put(prefix + "stat", "exists=" + file.exists()
+        result.put(prefix + "stat", "size=" + file.length()
+                + ", exists=" + file.exists()
                 + ", isFile=" + file.isFile() + ", isDirectory=" + file.isDirectory()
                 + ", canRead=" + file.canRead() + ", canWrite=" + file.canWrite());
-        result.put(prefix + "size", file.length());
         if (file.isFile() && file.canRead()) {
             try {
                 MessageDigest digest = MessageDigest.getInstance("MD5");

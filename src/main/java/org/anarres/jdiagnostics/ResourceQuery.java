@@ -47,7 +47,7 @@ public class ResourceQuery extends AbstractQuery {
         try {
             Enumeration<URL> resourcesUrls = getClass().getClassLoader().getResources(resourceName);
             List<URL> resources = Collections.list(resourcesUrls);
-            result.put(prefix + "resources", resources);
+            result.put(prefix + "resources", "(" + resources.size() + ") " + resources);
             return resources;
         } catch (IOException t) {
             thrown(result, prefix, t);
