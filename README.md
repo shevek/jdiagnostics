@@ -4,6 +4,10 @@ JDiagnostics is an extensible, dependency-free library for building
 support bundles. It is trivial to deploy in standalone applications,
 web services and tools.
 
+It can also be used as a self-diagnosing reflection library, for
+example in a test case which needs to call a method on a class not
+available at compile-time.
+
 It speeds up development by reducing the number of cycles required
 to discover and fix an issue. It is intended to replace ad-hoc print
 statements, and encapsulates a library of knowledge about what breaks
@@ -40,13 +44,20 @@ Zipkin/Brave is designed to trace behaviour of a large distributed
 applications. It can help to find which component in a fault-tolerant
 application is misbehaving, but will not necessarily diagnose it.
 
+Basic reflective calls throw exceptions which abort processing
+entirely and do not always explain what to do to fix the issue.
+Most other reflection libraries have a focus on the success of the
+call and the performance of the call, not on diagnosing why it
+didn't work.
+
 # Example Output
 
 See [SAMPLE](SAMPLE) for a simple example output.
 
 # How to use?
 
-Basic version:
+As a diagnostic bundle:
+-----------------------
 
 	LOG.info(new DefaultQuery().call());
 
@@ -90,12 +101,29 @@ For more advanced usage, you can build a CompositeQuery:
 	query.add(new MySystemStatusQuery(...));
 	String dump = String.valueOf(query.call());
 
+As a reflection library:
+------------------------
+
+	Object object = ...	// Of an unknown class.
+	Result result = new Result();
+	Object ret = new MethodExistsCallQuery(object, object.getClass(), "methodName", 
+		parameterTypes, arguments).invoke(result, "");
+	if (ret != null)
+		LOG.info("Call returned " + ret);
+	else
+		LOG.info("Call failed: " + result);	// Why it failed
+
+Notes:
+------
+
 The string output of the routine is not designed for machine parsing,
 and may change, but it is designed for human parsing, and readability
 patches are welcomed.
 
+# API Documentation
+
 The [JavaDoc API](http://shevek.github.io/jdiagnostics/docs/javadoc/)
-is also available.
+is available.
 
 # Guidelines to contributors
 
@@ -118,6 +146,10 @@ this issue
 	https://github.com/cobertura/cobertura/issues/122
 and now I have to debug a Hive/JDO issue, which may involve writing
 some more queries.
+
+Nowadays it is increasingly used as the first-solution in test
+suites both for class linkage issues and for its ability to do
+self-diagnosing reflection.
 
 There will no doubt be others, as this code is now standard for all
 applications I am involved in, but whether this README gets updated
