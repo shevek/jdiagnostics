@@ -5,9 +5,9 @@
  */
 package org.anarres.jdiagnostics;
 
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
 import org.junit.Test;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  *
@@ -15,13 +15,13 @@ import org.junit.Test;
  */
 public class DefaultQueryTest {
 
-    private static final Log LOG = LogFactory.getLog(DefaultQueryTest.class);
+    private static final Logger LOG = LoggerFactory.getLogger(DefaultQueryTest.class);
 
     @Test
     public void testQuery() {
         DefaultQuery query = new DefaultQuery();
         query.add(new ThrowableQuery(new Exception()));
-        LOG.info(query.call());
+        LOG.info(String.valueOf(query.call()));
     }
 
 }
