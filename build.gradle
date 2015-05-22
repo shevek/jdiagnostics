@@ -1,18 +1,26 @@
-// Establish version and status
-ext.githubProjectName = rootProject.name // Change if github project name is not the same as the root project's name
-group = "org.anarres.${githubProjectName}"
-
 buildscript {
     apply from: file('gradle/buildscript.gradle'), to: buildscript 
 }
 
-apply from: file('gradle/convention.gradle')
-apply from: file('gradle/github.gradle')
-apply from: file('gradle/nexus.gradle')
-apply from: file('gradle/check.gradle')
-apply from: file('gradle/license.gradle')
+apply plugin: 'org.anarres.stdproject'
+stdproject {
+}
+
+	group = "org.anarres.jdiagnostics"
+
+	apply plugin: 'org.anarres.stdmodule'
+	stdmodule {
+		description "Support bundle builder and classpath debugger for Java applications"
+		author id: 'shevek', name: 'Shevek', email: 'github@anarres.org'
+		license 'Apache-2.0'
+	}
+
+	sourceCompatibility = 1.5
+	animalsniffer {
+		signature = "org.codehaus.mojo.signature:java15:+@signature"
+	}
 
 dependencies {
-	// compile 'com.google.code.findbugs:jsr305:2.0.2'
-	testCompile 'org.slf4j:slf4j-api:1.7.7'
+	// compile 'com.google.code.findbugs:annotations:2.0.3'
+	// testCompile 'org.slf4j:slf4j-api:1.7.7'
 }
