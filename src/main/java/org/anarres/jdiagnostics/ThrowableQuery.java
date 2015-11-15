@@ -51,6 +51,8 @@ public class ThrowableQuery extends AbstractQuery {
             return;
         }
 
+        new ClassQuery(throwable.getClass()).call(result, prefix + "throwable/");
+
         result.put("message", throwable.getMessage());
         int i = 0;
         for (StackTraceElement e : throwable.getStackTrace()) {
