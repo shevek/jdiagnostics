@@ -39,6 +39,7 @@ public class DefaultQuery extends CompositeQuery {
         add(new XercesQuery());
         add(new TmpDirQuery());
         add(new ProcessEnvironmentQuery());
+        add(new ProductMetadataQuery());
 
         add(new ClassLoaderQuery("system", String.class.getClassLoader()));
         add(new ClassLoaderQuery("threadcontext", Thread.currentThread().getContextClassLoader()));

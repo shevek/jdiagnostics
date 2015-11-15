@@ -22,5 +22,6 @@ stdproject {
 
 dependencies {
 	// compile 'com.google.code.findbugs:annotations:2.0.3'
-	// testCompile 'org.slf4j:slf4j-api:1.7.7'
+	testCompile 'org.slf4j:slf4j-api:1.7.12'	// Plexus
+	testCompile 'com.google.guava:guava:18.0'	// Bnd archiver
 }
