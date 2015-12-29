@@ -241,7 +241,7 @@ public class ProductMetadata {
         public ModuleMetadata(
                 @Nonnull ProductMetadata productMetadata,
                 @Nonnull ModuleVersion moduleVersion,
-                @Nonnull URL manifestUrl,
+                @CheckForNull URL manifestUrl,
                 @Nonnull Manifest manifest) {
             this.productMetadata = productMetadata;
             this.moduleVersion = moduleVersion;
@@ -295,6 +295,8 @@ public class ProductMetadata {
 
         @CheckForNull
         public File getJar() {
+            if (manifestUrl == null)
+                return null;
             String resourcePath = manifestUrl.toString();
             if (!resourcePath.startsWith("jar:file:"))
                 return null;
@@ -356,13 +358,20 @@ public class ProductMetadata {
         return ProductMetadata.class.getClassLoader();
     }
 
-    @Nonnull
-    private static Manifest newManifest(@Nonnull URL resource) throws IOException {
-        InputStream in = resource.openStream();
+    @CheckForNull
+    private static Manifest newManifest(@Nonnull URL resource) {
         try {
-            return new Manifest(in);
-        } finally {
-            in.close();
+            InputStream in = resource.openStream();
+            try {
+                return new Manifest(in);
+            } finally {
+                in.close();
+            }
+        } catch (Exception e) {
+            // This should never happen because we previously discovered the manifest as a resource.
+            // However, if we replace a JAR underneath a running JVM, we can get FileNotFoundException.
+            getLogger().log(Level.WARNING, "Failed to load Manifest from " + resource, e);
+            return null;
         }
     }
 
@@ -390,7 +399,7 @@ public class ProductMetadata {
     }
 
     @CheckForNull
-    private ModuleMetadata newModule(@Nonnull URL manifestUrl, @Nonnull Manifest manifest, @Nonnull ModuleVersion version) throws MalformedURLException {
+    private ModuleMetadata newModule(@Nonnull URL manifestUrl, @Nonnull Manifest manifest, @Nonnull ModuleVersion version) {
         // URL resource = loader.getResource("META-INF/" + version.getName() + ".properties");
         ModuleMetadata module = new ModuleMetadata(this, version, manifestUrl, manifest);
         String spec = "/META-INF/" + version.getName() + ".properties";
@@ -420,6 +429,8 @@ public class ProductMetadata {
         for (URL manifestUrl : Collections.list(manifestUrls)) {
             // System.err.println("Found " + resource);
             Manifest manifest = newManifest(manifestUrl);
+            if (manifest == null)
+                continue;
             Attributes attributes = manifest.getMainAttributes();
             if (attributes == null)
                 continue;
