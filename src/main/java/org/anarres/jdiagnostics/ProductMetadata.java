@@ -341,6 +341,9 @@ public class ProductMetadata {
             String revision = getRevision();
             if (revision != null)
                 buf.append(" (rev ").append(revision).append(")");
+            String buildDate = getBuildDate();
+            if (buildDate != null)
+                buf.append(" built on ").append(buildDate);
             return buf.toString();
         }
 
