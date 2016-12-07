@@ -30,7 +30,7 @@ import java.util.TreeMap;
  * A result.
  * Results are usually sorted by key (using TreeMap).
  * To preserve order of addition, call
- * <code>new Result(new LinkedHashMap<String, Object>())</code>.
+ * <code>new Result(new LinkedHashMap&lt;String, Object&gt;())</code>.
  * In a query, override {@link AbstractQuery#newResult()}.
  *
  * @author shevek
