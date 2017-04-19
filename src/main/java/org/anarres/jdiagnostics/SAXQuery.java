@@ -33,7 +33,7 @@ public class SAXQuery extends AbstractQuery {
     private static final String SAX_VERSION2BETA_CLASS = "org.xml.sax.XMLReader";
     private static final String SAX_VERSION2BETA_METHOD = "parse";  // String
     private static final String SAX_VERSION2_CLASS = "org.xml.sax.helpers.AttributesImpl";
-    private final String SAX_VERSION2_METHOD = "setAttributes";  // Attributes
+    private static final String SAX_VERSION2_METHOD = "setAttributes";  // Attributes
 
     @Override
     public String getName() {
