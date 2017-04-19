@@ -12,7 +12,6 @@ import java.io.InputStream;
 import java.lang.annotation.Documented;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
-import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.Collection;
@@ -27,7 +26,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 /**
- * Product Metadata.
+ * Product Metadata and version information.
  *
  * This class is driven by metadata inserted into JAR files by the Netflix
  * gradle-info-plugin, Maven Plexus or Bnd plugins, or similar.

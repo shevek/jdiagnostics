@@ -22,8 +22,8 @@ package org.anarres.jdiagnostics;
 
 /**
  * <code>
- * Query q = new ....();
- * q.call().toString();
+ * Query q = new {@link DefaultQuery}();
+ * System.out.println(q.call().toString());
  * </code>
  *
  * @author shevek

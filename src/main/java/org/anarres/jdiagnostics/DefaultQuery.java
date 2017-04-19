@@ -21,7 +21,9 @@
 package org.anarres.jdiagnostics;
 
 /**
+ * A composite of most other useful queries, and a good starting point.
  *
+ * @see Query
  * @author shevek
  */
 public class DefaultQuery extends CompositeQuery {
