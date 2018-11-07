@@ -59,6 +59,7 @@ public class ProductMetadata {
 
         Archiver_Version("Archiver-Version"),
         Bnd_LastModified("Bnd-LastModified"),
+        Branch("Branch"),
         Build_Date("Build-Date"),
         Build_Host("Build-Host"),
         Build_Id("Build-Id"),
@@ -326,6 +327,11 @@ public class ProductMetadata {
         }
 
         @CheckForNull
+        public String getBuildBranch() {
+            return getMetadataProperty(MetadataProperty.Branch);
+        }
+
+        @CheckForNull
         public String getBuildDate() {
             // Build-Date=2015-01-01_10:09:09
             // String text = getMetadataProperty("Build-Date");
@@ -337,6 +343,9 @@ public class ProductMetadata {
         public String getSummary() {
             StringBuilder buf = new StringBuilder();
             buf.append(getModuleVersion());
+            String branch = getBuildBranch();
+            if (branch != null && !"master".equals(branch))
+                buf.append(" (branch ").append(branch).append(")");
             String revision = getRevision();
             if (revision != null)
                 buf.append(" (rev ").append(revision).append(")");
