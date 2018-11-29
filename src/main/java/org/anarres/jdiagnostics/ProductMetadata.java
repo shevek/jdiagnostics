@@ -55,6 +55,9 @@ public class ProductMetadata {
         return Logger.getLogger(ProductMetadata.class.getName());
     }
 
+    /**
+     * A non-exhaustive list of well-known keys which appear in metadata.
+     */
     public static enum MetadataProperty {
 
         Archiver_Version("Archiver-Version"),
@@ -307,16 +310,28 @@ public class ProductMetadata {
             return new File(resourcePath.replace('/', File.separatorChar));
         }
 
+        /**
+         * Returns the value for the given key, either from the properties or the manifest's main-attributes.
+         *
+         * @param key The key to look up.
+         * @return The value, or null.
+         */
         @CheckForNull
-        private String getMetadataProperty(@Nonnull String key) {
+        public String getMetadataProperty(@Nonnull String key) {
             String value = properties.getProperty(key);
             if (value == null)
                 value = manifest.getMainAttributes().getValue(key);
             return value;
         }
 
+        /**
+         * Returns the value for the given key, either from the properties or the manifest's main-attributes.
+         *
+         * @param key The key to look up.
+         * @return The value, or null.
+         */
         @CheckForNull
-        private String getMetadataProperty(@Nonnull MetadataProperty key) {
+        public String getMetadataProperty(@Nonnull MetadataProperty key) {
             return getMetadataProperty(key.key);
         }
 
@@ -339,6 +354,18 @@ public class ProductMetadata {
             return getMetadataProperty(MetadataProperty.Build_Date);
         }
 
+        /**
+         * Returns a summary of the version of this product.
+         *
+         * This is almost always useful.
+         *
+         * This is derived from {@link #getModuleVersion()},
+         * {@link #getBuildBranch()},
+         * {@link #getRevision()},
+         * and {@link #getBuildDate()}.
+         *
+         * @return a summary of the circumstances under which this product was built.
+         */
         @Nonnull
         public String getSummary() {
             StringBuilder buf = new StringBuilder();
