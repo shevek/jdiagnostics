@@ -2,12 +2,13 @@ buildscript {
 	repositories {
 		// mavenLocal()
 		mavenCentral()
-		jcenter()
+		// jcenter()
 		// maven { url 'https://oss.sonatype.org/content/repositories/snapshots/' }
+		gradlePluginPortal()
 	}
 
 	dependencies {
-		classpath 'org.anarres.gradle:gradle-stdproject-plugin:1.0.8'
+		classpath 'org.anarres.gradle:gradle-stdproject-plugin:1.0.10'
 	}
 }
 
@@ -25,9 +26,9 @@ stdproject {
 	}
 
 	sourceCompatibility = 1.5
-	animalsniffer {
-		signature = "org.codehaus.mojo.signature:java15:+@signature"
-	}
+//	animalsniffer {
+//		signature = "org.codehaus.mojo.signature:java15:+@signature"
+//	}
 
 dependencies {
 	// compile 'com.google.code.findbugs:annotations:3.0.1'
