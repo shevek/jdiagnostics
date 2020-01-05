@@ -382,6 +382,52 @@ public class ProductMetadata {
             return buf.toString();
         }
 
+        /** Returns ${JENKINS_URL} (Jenkins) or equivalent from the build system. */
+        @CheckForNull
+        public String getBuildHost() {
+            return getMetadataProperty(MetadataProperty.Build_Host);
+        }
+
+        /** Returns ${JOB_NAME} (Jenkins) or equivalent from the build system. */
+        @CheckForNull
+        public String getBuildJob() {
+            return getMetadataProperty(MetadataProperty.Build_Job);
+        }
+
+        /** Returns ${BUILD_NUMBER} (Jenkins) or equivalent from the build system. */
+        @CheckForNull
+        public String getBuildNumber() {
+            return getMetadataProperty(MetadataProperty.Build_Number);
+        }
+
+        /**
+         * Returns a summary of the circumstances under which this product was built.
+         *
+         * This is most likely to be useful for JARs built using a CI provider
+         * and the nebula-info Gradle plugins.
+         *
+         * This is derived from {@link MetadataProperty#Build_Host},
+         * {@link MetadataProperty#Build_Job} and
+         * {@link MetadataProperty#Build_Number}.
+         *
+         * @return a summary of the circumstances under which this product was built.
+         */
+        @Nonnull
+        public String getBuildSummary() {
+            StringBuilder buf = new StringBuilder();
+            buf.append("Built by ");
+            String buildHost = getBuildHost();
+            if (buildHost != null)
+                buf.append(buildHost);
+            String buildJob = getBuildJob();
+            if (buildJob != null)
+                buf.append(":").append(buildJob);
+            String buildNumber = getBuildNumber();
+            if (buildNumber != null)
+                buf.append("#").append(buildNumber);
+            return buf.toString();
+        }
+
         @Override
         public String toString() {
             return getSummary();

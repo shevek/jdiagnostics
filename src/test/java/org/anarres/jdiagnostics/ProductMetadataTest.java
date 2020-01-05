@@ -23,5 +23,11 @@ public class ProductMetadataTest {
         ProductMetadata product = new ProductMetadata();
         LOG.info("Product is\n" + product);
         LOG.info("Product ch.qos is\n" + product.toString("ch.qos"));
+
+        for (ProductMetadata.ModuleMetadata module : product.getModules()) {
+            LOG.info("Module is " + module);
+            LOG.info("Module summary is " + module.getSummary());
+            LOG.info("Module build summary is " + module.getBuildSummary());
+        }
     }
 }
