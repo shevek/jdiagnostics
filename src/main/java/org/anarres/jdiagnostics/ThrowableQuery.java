@@ -61,6 +61,12 @@ public class ThrowableQuery extends AbstractQuery {
             i++;
         }
 
+        Object cause = new MethodExistsCallQuery(throwable, Throwable.class, "getCause").invoke(result, prefix + "cause/");
+        if (cause instanceof Throwable) {
+            Throwable t = (Throwable) cause;
+            result.put(prefix + "cause", new ThrowableQuery(t).call());
+        }
+
         Object suppressed = new MethodExistsCallQuery(throwable, Throwable.class, "getSuppressed").invoke(result, prefix + "suppressed/");
         if (suppressed instanceof Throwable[]) {
             int j = 0;
