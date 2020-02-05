@@ -40,7 +40,7 @@ public class DefaultQuery extends CompositeQuery {
         add(new XalanQuery());
         add(new XercesQuery());
         add(new TmpDirQuery());
-        add(new ProcessEnvironmentQuery());
+        // add(new ProcessEnvironmentQuery());  // This can expose private data. We will exclude it by default.
         add(new ProductMetadataQuery());
 
         add(new ClassLoaderQuery("system", String.class.getClassLoader()));
