@@ -188,7 +188,7 @@ public class ProductMetadata {
         }
 
         @CheckForNull
-        public static ModuleVersion forMavenPluexus(@Nonnull Attributes attributes) {
+        public static ModuleVersion forMavenPlexus(@Nonnull Attributes attributes) {
             String implementationTitle = attributes.getValue(MetadataProperty.Implementation_Title.key);
             if (implementationTitle == null)
                 return null;
@@ -221,7 +221,7 @@ public class ProductMetadata {
                 return moduleVersion;
 
             // However, some OTHER people also write incompatible data into the manifest.
-            moduleVersion = forMavenPluexus(attributes);
+            moduleVersion = forMavenPlexus(attributes);
             if (moduleVersion != null)
                 return moduleVersion;
 
